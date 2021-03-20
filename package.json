@@ -9,6 +9,9 @@
 		"eslint"
 	],
 	"devDependencies": {
+		"@commitlint/cli": "^12.0.1",
+		"@commitlint/config-conventional": "^12.0.1",
+		"cz-conventional-changelog": "^3.3.0",
 		"lerna": "^4.0.0",
 		"prettier": "^2.2.1"
 	},
