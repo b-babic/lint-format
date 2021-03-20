@@ -1,6 +1,11 @@
 {
+	"command": {
+    	"version": {
+      		"allowBranch": "main"
+    	}
+  },
   "packages": [
-    "packages/*"
+  	"packages/*"
   ],
   "version": "independent"
 }
