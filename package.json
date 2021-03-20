@@ -17,7 +17,17 @@
 	},
 	"scripts": {
 		"postinstall": "lerna bootstrap",
-		"bootstrap": "sh scripts/postinstall.sh"
+		"bootstrap": "sh scripts/postinstall.sh",
+		"lint:commit": "commitlint",
+		"lint:format": "prettier --check . "
 	},
-	"prettier": "./packages/prettier-config/.prettierrc.json"
+	"prettier": "./packages/prettier-config/.prettierrc.json",
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	},
+	"git": {
+		"pre-commit": ["lint:commit", "lint:format"]
+	}
 }
