@@ -1,11 +1,9 @@
 {
-	"command": {
-    	"version": {
-      		"allowBranch": "main"
-    	}
+  "command": {
+    "version": {
+      "allowBranch": "main"
+    }
   },
-  "packages": [
-  	"packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "independent"
 }
