@@ -17,11 +17,11 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "postinstall": "lerna bootstrap",
+    "postinstall": "lerna bootstrap && npm run bootstrap",
     "bootstrap": "sh scripts/postinstall.sh",
     "lint:commit": "commitlint",
-    "lint:format": "prettier --config './packages/prettier-config/.prettierrc.json' --check $(git diff --name-only | xargs)",
-    "format": "prettier --config './packages/prettier-config/.prettierrc.json' --write $(git diff --name-only | xargs)"
+    "lint:format": "prettier --config './packages/prettier-config/.prettierrc.json' --check .",
+    "format": "prettier --config './packages/prettier-config/.prettierrc.json' --write ."
   },
   "prettier": "./packages/prettier-config/.prettierrc.json",
   "config": {
