@@ -4,7 +4,8 @@
       "registry": "https://npm.pkg.github.com"
     },
     "version": {
-      "allowBranch": "main"
+      "allowBranch": "main",
+      "message": "release: publish %s"
     }
   },
   "packages": ["packages/*"],
