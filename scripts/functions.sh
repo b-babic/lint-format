@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 ROOT_DIR=`git rev-parse --show-toplevel`
 PACKAGE_DIR=$ROOT_DIR/packages/misc-files
