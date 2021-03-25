@@ -1,10 +1,10 @@
 {
-	"name": "@progressivestudio/prettier-config",
-	"main": "./.prettierrc.json",
-	"repository": "progressivestudio/configurations",
-	"homepage": "https://github.com/progressivestudio/configurations/tree/main/packages/prettier-config#readme",
-	"keywords": [
-		"progressivestudio",
-		"prettier"
-	]
+  "name": "@progressivestudio/prettier-config",
+  "main": "./.prettierrc.json",
+  "repository": "progressivestudio/configurations",
+  "homepage": "https://github.com/progressivestudio/configurations/tree/main/packages/prettier-config#readme",
+  "keywords": [
+    "progressivestudio",
+    "prettier"
+  ]
 }
