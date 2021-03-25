@@ -17,7 +17,7 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "postinstall": "lerna bootstrap && npm run bootstrap",
+    "postinstall": "lerna bootstrap",
     "bootstrap": "sh scripts/postinstall.sh",
     "lint:commit": "commitlint",
     "lint:format": "prettier --config './packages/prettier-config/.prettierrc.json' --check .",
