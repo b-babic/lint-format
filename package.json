@@ -21,7 +21,9 @@
     "bootstrap": "sh scripts/postinstall.sh",
     "lint:commit": "commitlint",
     "lint:format": "prettier --config './packages/prettier-config/.prettierrc.json' --check .",
-    "format": "prettier --config './packages/prettier-config/.prettierrc.json' --write ."
+    "format": "prettier --config './packages/prettier-config/.prettierrc.json' --write .",
+    "publish:ci": "lerna publish from-package -y --no-verify-access",
+    "version:ci": "lerna version --yes --conventional-commits"
   },
   "prettier": "./packages/prettier-config/.prettierrc.json",
   "config": {
