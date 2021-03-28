@@ -1,6 +1,6 @@
 {
   "name": "@progressivestudio/prettier-config",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "main": "./.prettierrc.json",
   "repository": "progressivestudio/configurations",
   "homepage": "https://github.com/progressivestudio/configurations/tree/main/packages/prettier-config#readme",
