@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.paths.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["DOM", "ES6", "DOM.Iterable", "es2020.string"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noErrorTruncation": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext"
+  },
+  "exclude": ["node_modules"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}

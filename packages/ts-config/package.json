@@ -1,0 +1,12 @@
+{
+  "name": "@progressivestudio/ts-config",
+  "version": "0.0.0",
+  "main": "./.tsconfig.json",
+  "repository": "progressivestudio/configurations",
+  "homepage": "https://github.com/progressivestudio/configurations/tree/main/packages/ts-config#readme",
+  "keywords": [
+    "progressivestudio",
+    "typescript",
+    "ts config"
+  ]
+}
