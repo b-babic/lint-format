@@ -22,7 +22,7 @@
     "lint:commit": "commitlint",
     "lint:format": "prettier --config './packages/prettier-config/.prettierrc.json' --check .",
     "format": "prettier --config './packages/prettier-config/.prettierrc.json' --write .",
-    "publish:ci": "lerna publish from-package -y --no-verify-access",
+    "publish:ci": "lerna publish from-package",
     "version:ci": "lerna version --yes --conventional-commits"
   },
   "prettier": "./packages/prettier-config/.prettierrc.json",
@@ -34,5 +34,8 @@
   "git": {
     "commit-msg": "lint:commit",
     "pre-commit": "lint:format"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

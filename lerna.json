@@ -1,8 +1,5 @@
 {
   "command": {
-    "publish": {
-      "registry": "https://npm.pkg.github.com"
-    },
     "version": {
       "allowBranch": "main",
       "message": "chore(release): updated release notes and package versions"
