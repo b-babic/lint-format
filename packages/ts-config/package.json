@@ -9,5 +9,8 @@
     "typescript",
     "ts config"
   ],
-  "gitHead": "f353f3025b8dbd2f2a4b8219d5e18e9ee3101442"
+  "gitHead": "2a47426a9834ea04dfcf0f3b630a4f17e45aedcc",
+  "publishConfig": {
+    "access": "public"
+  }
 }

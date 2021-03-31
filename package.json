@@ -34,8 +34,5 @@
   "git": {
     "commit-msg": "lint:commit",
     "pre-commit": "lint:format"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
