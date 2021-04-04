@@ -1,12 +1,12 @@
 {
   "extends": "./tsconfig.paths.json",
   "compilerOptions": {
-    "jsx": "react",
     "target": "ESNext",
     "allowJs": true, // break on .js imports
     "esModuleInterop": true, // don't treat imported CommonJS/AMD/UMD modules similar to ES6 modules
     "forceConsistentCasingInFileNames": true, // force consitent casing in filenames
     "isolatedModules": true, // allow exporting things that does not provide a value e.g (export type)
+    "jsx": "preserve", // emit .jsx files with the JSX unchanged
     "lib": ["dom", "dom.iterable", "esnext"], // set type definitions
     "module": "ESNext", // set the module system for the program
     "moduleResolution": "node", // module resolution strategy
