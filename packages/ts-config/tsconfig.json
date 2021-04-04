@@ -11,6 +11,8 @@
     "moduleResolution": "node", // module resolution strategy
     "noEmit": true, // do not emit compiler output files
     "noErrorTruncation": true, // do not truncate error messages
+    "noImplicitAny": true, // don't fallback to any if no type is defined
+    "noImplicitReturns": true, // force functions to have return types defined / no implicit type
     "noUnusedLocals": true, // report errors on unused local variables.
     "noUnusedParameters": true, // report errors on unused parameters in functions.
     "resolveJsonModule": true, // allow importing .json files
