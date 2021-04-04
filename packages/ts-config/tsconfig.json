@@ -1,7 +1,6 @@
 {
   "extends": "./tsconfig.paths.json",
   "compilerOptions": {
-    "target": "ESNext",
     "allowJs": true, // break on .js imports
     "esModuleInterop": true, // don't treat imported CommonJS/AMD/UMD modules similar to ES6 modules
     "forceConsistentCasingInFileNames": true, // force consitent casing in filenames
@@ -14,7 +13,8 @@
     "noErrorTruncation": true, // do not truncate error messages
     "resolveJsonModule": true, // allow importing .json files
     "skipLibCheck": true, // skip type checking of declaration (d.ts) files
-    "strict": true // force stronger checking
+    "strict": true, // force stronger checking
+    "target": "es2019" // downlevel JS features
   },
   "exclude": ["node_modules"], // exclude files/folders from the program
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"] // include files/patterns in the program
