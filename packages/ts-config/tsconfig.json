@@ -14,6 +14,7 @@
     "noFallthroughCasesInSwitch": true, // force break or return inside switch statements
     "noImplicitAny": true, // don't fallback to any if no type is defined
     "noImplicitReturns": true, // force functions to have return types defined / no implicit type
+    "noUncheckedIndexedAccess": true, // add undefined to any un-declared field in the type.
     "noUnusedLocals": true, // report errors on unused local variables.
     "noUnusedParameters": true, // report errors on unused parameters in functions.
     "resolveJsonModule": true, // allow importing .json files
