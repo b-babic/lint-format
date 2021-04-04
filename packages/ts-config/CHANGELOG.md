@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/progressivestudio/configurations/compare/@progressivestudio/ts-config@0.4.1...@progressivestudio/ts-config@0.5.0) (2021-04-04)
+
+
+### Bug Fixes
+
+* **ts-config:** remove comments from paths json (unsupported for now) ([72d0c95](https://github.com/progressivestudio/configurations/commit/72d0c95adda3ecb0a5d666d7c1a158de3600c4ec))
+
+
+### BREAKING CHANGES
+
+* **ts-config:** json comments are not supported for paths
+
+
+
+
+
 ## [0.4.1](https://github.com/progressivestudio/configurations/compare/@progressivestudio/ts-config@0.4.0...@progressivestudio/ts-config@0.4.1) (2021-04-04)
 
 
