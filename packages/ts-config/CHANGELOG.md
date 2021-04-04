@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/progressivestudio/configurations/compare/@progressivestudio/ts-config@0.4.0...@progressivestudio/ts-config@0.4.1) (2021-04-04)
+
+
+### Features
+
+* **ts-config:** add strict function and type check rule ([2c45da0](https://github.com/progressivestudio/configurations/commit/2c45da00b6908db00e5fb2ad8e3f0c0d80061c08))
+* **ts-config:** disable unused locals and parameters ([0c230d7](https://github.com/progressivestudio/configurations/commit/0c230d75ff104942c0487b48116e91ba00686d39))
+* **ts-config:** don't allow array index accessing ([fc77efc](https://github.com/progressivestudio/configurations/commit/fc77efc8b8840e8bbf838e87cf766bc8a2736a95))
+* **ts-config:** don't allow implicit any and returns ([24afe8c](https://github.com/progressivestudio/configurations/commit/24afe8cdb32d274401cfbc4083774b2650f8969a))
+* **ts-config:** dont allow fall through case ([87cfdbb](https://github.com/progressivestudio/configurations/commit/87cfdbb1368a67e9dbf1b17f8691a73b3028bee1))
+
+
+
+
+
 # [0.4.0](https://github.com/progressivestudio/configurations/compare/@progressivestudio/ts-config@0.3.0...@progressivestudio/ts-config@0.4.0) (2021-04-04)
 
 
