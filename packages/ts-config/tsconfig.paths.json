@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": ".", // set base directory
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"] // add default @ folder alias [@/modules/, @/components]
-    } // set lookup locations and folder aliases
+      "@/*": ["src/*"]
+    }
   }
 }
