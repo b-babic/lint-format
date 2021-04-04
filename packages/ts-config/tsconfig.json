@@ -14,6 +14,9 @@
     "resolveJsonModule": true, // allow importing .json files
     "skipLibCheck": true, // skip type checking of declaration (d.ts) files
     "strict": true, // force stronger checking
+    "strictFunctionTypes": true, // force functions parameters to be checked more correctly
+    "strictNullChecks": true, // don't ignore null and undefined in some cases (array.find etc)
+    "strictPropertyInitialization": true, // raise the error when no assignments in constructor
     // es2015 - es6 feature set: array.find, Promise, Proxy, Symbol, Map, Set, Reflect, etc.
     // es2016 feature set: array.include, etc.
     // es2017 feature set: Object.entries, Object.values, Atomics, SharedArrayBuffer, date.formatToParts, typed arrays, etc.
