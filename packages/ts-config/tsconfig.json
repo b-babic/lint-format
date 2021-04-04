@@ -17,5 +17,5 @@
     "target": "es2019" // downlevel JS features
   },
   "exclude": ["node_modules"], // exclude files/folders from the program
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"] // include files/patterns in the program
+  "include": ["next-env.d.ts", "src"] // include files/patterns in the program
 }
