@@ -11,6 +11,8 @@
     "moduleResolution": "node", // module resolution strategy
     "noEmit": true, // do not emit compiler output files
     "noErrorTruncation": true, // do not truncate error messages
+    "noUnusedLocals": true, // report errors on unused local variables.
+    "noUnusedParameters": true, // report errors on unused parameters in functions.
     "resolveJsonModule": true, // allow importing .json files
     "skipLibCheck": true, // skip type checking of declaration (d.ts) files
     "strict": true, // force stronger checking
