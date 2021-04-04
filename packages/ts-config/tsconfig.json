@@ -11,6 +11,7 @@
     "moduleResolution": "node", // module resolution strategy
     "noEmit": true, // do not emit compiler output files
     "noErrorTruncation": true, // do not truncate error messages
+    "noFallthroughCasesInSwitch": true, // force break or return inside switch statements
     "noImplicitAny": true, // don't fallback to any if no type is defined
     "noImplicitReturns": true, // force functions to have return types defined / no implicit type
     "noUnusedLocals": true, // report errors on unused local variables.
