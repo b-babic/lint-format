@@ -7,7 +7,7 @@
     "isolatedModules": true, // allow exporting things that does not provide a value e.g (export type)
     "jsx": "preserve", // emit .jsx files with the JSX unchanged
     "lib": ["dom", "dom.iterable", "esnext"], // set type definitions
-    "module": "ESNext", // set the module system for the program
+    "module": "esnext", // set the module system for the program
     "moduleResolution": "node", // module resolution strategy
     "noEmit": true, // do not emit compiler output files
     "noErrorTruncation": true, // do not truncate error messages
