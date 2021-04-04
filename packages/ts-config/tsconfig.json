@@ -14,6 +14,11 @@
     "resolveJsonModule": true, // allow importing .json files
     "skipLibCheck": true, // skip type checking of declaration (d.ts) files
     "strict": true, // force stronger checking
+    // es2015 - es6 feature set: array.find, Promise, Proxy, Symbol, Map, Set, Reflect, etc.
+    // es2016 feature set: array.include, etc.
+    // es2017 feature set: Object.entries, Object.values, Atomics, SharedArrayBuffer, date.formatToParts, typed arrays, etc.
+    // es2018 feature set: async iterables, promise.finally, Intl.PluralRules, rexexp.groups, etc.
+    // es2019 feature set: array.flat, array.flatMap, Object.fromEntries, string.trimStart, string.trimEnd, etc.
     "target": "es2019" // downlevel JS features
   },
   "exclude": ["node_modules"], // exclude files/folders from the program
