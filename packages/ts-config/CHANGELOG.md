@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/progressivestudio/configurations/compare/@progressivestudio/ts-config@0.5.0...@progressivestudio/ts-config@0.6.0) (2021-04-09)
+
+
+### Features
+
+* **ts-config:** separate base tsconfig into base, preact and next ([5e4d15d](https://github.com/progressivestudio/configurations/commit/5e4d15d4ecf94b11db09e7bcb581f6f79a1333f2))
+
+
+
+
+
 # [0.5.0](https://github.com/progressivestudio/configurations/compare/@progressivestudio/ts-config@0.4.1...@progressivestudio/ts-config@0.5.0) (2021-04-04)
 
 
