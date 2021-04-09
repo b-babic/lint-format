@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json", // extend base config
+  "compilerOptions": {
+    // allow support for the preact
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "types": ["vite/client"]
+  },
+  "include": ["next-env.d.ts", "src"] // include files/patterns in the program,
+}
