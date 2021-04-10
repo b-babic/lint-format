@@ -1,0 +1,10 @@
+{
+  "extends": ["../base/.eslintrc.json", "preact"], // extend base + add preact based config
+  "settings": {
+    // Add support for preact
+    "react": {
+      "version": "preact",
+      "pragma": "h"
+    }
+  }
+}
