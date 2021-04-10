@@ -1,6 +1,6 @@
 {
   "name": "@progressivestudio/ts-config-nextjs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./.tsconfig.json",
   "repository": "progressivestudio/configurations",
   "homepage": "https://github.com/progressivestudio/configurations/tree/main/packages/ts-config#readme",

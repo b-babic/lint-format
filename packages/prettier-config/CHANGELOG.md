@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/progressivestudio/configurations/compare/@progressivestudio/prettier-config@0.3.0...@progressivestudio/prettier-config@0.4.0) (2021-04-10)
+
+
+### Features
+
+* **prettier:** exclude .yaml and .md files from formatting ([674576d](https://github.com/progressivestudio/configurations/commit/674576df6ddc824ede4b7d45f174da8170df536b))
+
+
+
+
+
 # 0.3.0 (2021-04-04)
 
 
