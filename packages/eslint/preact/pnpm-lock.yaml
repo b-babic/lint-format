@@ -1,0 +1,15 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@progressivestudio/eslint-config-base': ^0.1.1
+
+dependencies:
+  '@progressivestudio/eslint-config-base': 0.1.1
+
+packages:
+
+  /@progressivestudio/eslint-config-base/0.1.1:
+    resolution: {integrity: sha512-KZNGa8VPhSf3HLE8fc9ykJKATgxhnA5lseIwqLI4h8q88+1b2vUc6C3khfsPxdiFfZ+lc/nzBR/cVsHmA8FOLQ==}
+    peerDependencies:
+      eslint: '>= 7'
+    dev: false
