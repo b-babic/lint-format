@@ -1,4 +1,4 @@
 {
-  "extends": "../tsconfig.json", // extend base config
+  "extends": "@progressivestudio/ts-config-base", // extend base config
   "include": ["next-env.d.ts", "src"] // include files/patterns in the program
 }

@@ -1,0 +1,13 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@progressivestudio/ts-config-base': 0.7.2
+
+devDependencies:
+  '@progressivestudio/ts-config-base': 0.7.2
+
+packages:
+
+  /@progressivestudio/ts-config-base/0.7.2:
+    resolution: {integrity: sha512-J4j4tr4yOcZkwUyyble9S8I5FEmOTVMDeVyvr0rmHAzhA8VTpkn6DFeu2ytE4EAhETRwOeDCNc6oIjuMiGNKwQ==}
+    dev: true

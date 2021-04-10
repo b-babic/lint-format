@@ -1,5 +1,5 @@
 {
-  "extends": "../tsconfig.json", // extend base config
+  "extends": "@progressivestudio/ts-config-base", // extend base config
   "compilerOptions": {
     // allow support for the preact
     "jsx": "preserve",
