@@ -1,0 +1,6 @@
+{
+  "extends": "../base/eslintrc.json", // extend the base config
+  "rules": {
+    "jsx-a11y/anchor-is-vaild": 0 // disable a11y rule for next-link
+  }
+}
