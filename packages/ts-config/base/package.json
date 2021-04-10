@@ -1,5 +1,5 @@
 {
-  "name": "@progressivestudio/ts-config",
+  "name": "@progressivestudio/ts-config-base",
   "version": "0.7.1",
   "main": "./.tsconfig.json",
   "repository": "progressivestudio/configurations",
