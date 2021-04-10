@@ -23,7 +23,7 @@
     "lint:format": "prettier --config './packages/prettier-config/.prettierrc.json' --check .",
     "format": "prettier --config './packages/prettier-config/.prettierrc.json' --write .",
     "publish:ci": "lerna publish from-package",
-    "version:ci": "lerna version --yes --conventional-commits"
+    "version:ci": "lerna version --conventional-commits"
   },
   "prettier": "./packages/prettier-config/.prettierrc.json",
   "config": {
