@@ -1,6 +1,6 @@
 {
   "name": "@progressivestudio/eslint-config-nextjs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "./.eslintrc.json",
   "repository": "progressivestudio/configurations",
   "homepage": "https://github.com/progressivestudio/configurations/tree/main/packages/eslint#readme",
