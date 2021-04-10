@@ -1,0 +1,63 @@
+{
+  "extends": ["plugin:@typescript-eslint/recommended", "plugin:compat/recommended", "plugin:jsx-a11y/recommended"],
+  "env": {
+    "browser": true, // run in browser environment
+    "jest": true // allow jest to be used as a test runner
+  },
+  "parser": "@typescript-eslint/parser", // set default parser to typescript-eslint
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true // allow jsx|tsx syntax
+    },
+    "ecmaVersion": 6, // default version is 6
+    "sourceType": "module" // use ecmascript modules
+  },
+  "plugins": ["@typescript-eslint", "simple-import-sort", "sort-keys-fix", "prettier"],
+  "root": true, // allow multiple config files
+  "rules": {
+    "@typescript-eslint/array-type": "error", // use same style for array types
+    "@typescript-eslint/ban-ts-ignore": "off", // allow ts-ignore sometimes
+    "@typescript-eslint/explicit-member-accessibility": "off", // allow all public inside class
+    "@typescript-eslint/interface-name-prefix": "off", // don't want to write IInterface
+    "@typescript-eslint/member-ordering": ["error"], // consistent ordering of fields [enums, interfaces, types]
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "no-console": [
+      "error",
+      {
+        "allow": ["warn", "error"]
+      }
+    ], // allow only warn/error log for production error handling in some cases
+    "no-unused-vars": "off", // turn off since @typescript-eslint has the same rule
+    "no-use-before-define": "off", // don't allow enums, types and interfaces before they're defined
+    "prefer-arrow-callback": "off", // function syntax makes more sense for me
+    "prettier/prettier": "error", // turn on prettier integration
+    "react-hooks/exhaustive-deps": "warn", // warn only about effect dependencies
+    "react-hooks/rules-of-hooks": "error", // turn on rules of hooks
+    "react/jsx-sort-props": [
+      "error",
+      {
+        "callbacksLast": true,
+        "ignoreCase": true,
+        "reservedFirst": true
+      }
+    ],
+    "react/no-children-prop": "error", // don't pass children as keyed prop
+    "react/no-unknown-property": "off", // allow class='foo' instead of className for preact etc.
+    "simple-import-sort/exports": "error", // autofixable import and export sorting
+    "simple-import-sort/imports": "error", // autofixable import and export sorting
+    // sort keys and props overrides
+    // sort keys by ascending natural order a->b->c
+    // sort component props rules
+    // ignore case firstName -> firstName
+    // callbacks are last in the line propName -> onClick
+    // reserverd keywords (key, ref etc.) should be first in a row key -> firstName -> onClick
+    "sort-keys": [
+      "error",
+      "asc",
+      {
+        "natural": true
+      }
+    ],
+    "sort-keys-fix/sort-keys-fix": "warn" // autofixable eslint-sort-keys variant
+  }
+}
