@@ -1,6 +1,6 @@
 {
   "name": "@progressivestudio/eslint-config-base",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/progressivestudio/configurations/tree/main/packages/eslint#readme",
   "keywords": [
     "progressivestudio",
@@ -15,5 +15,5 @@
     "access": "public"
   },
   "repository": "progressivestudio/configurations",
-  "gitHead": "8a3ebaa7af73120e347e7e180c5f6af8d0cf3d1b"
+  "gitHead": "fbc61528e9d2789e9d746b5f3b8505e4c5ecb072"
 }

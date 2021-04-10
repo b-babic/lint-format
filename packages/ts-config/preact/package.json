@@ -1,6 +1,6 @@
 {
   "name": "@progressivestudio/ts-config-preact",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./.tsconfig.json",
   "repository": "progressivestudio/configurations",
   "homepage": "https://github.com/progressivestudio/configurations/tree/main/packages/ts-config#readme",
@@ -12,5 +12,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "8a3ebaa7af73120e347e7e180c5f6af8d0cf3d1b"
+  "gitHead": "fbc61528e9d2789e9d746b5f3b8505e4c5ecb072"
 }
