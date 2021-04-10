@@ -1,6 +1,6 @@
 {
   "name": "@progressivestudio/ts-config",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "main": "./.tsconfig.json",
   "repository": "progressivestudio/configurations",
   "homepage": "https://github.com/progressivestudio/configurations/tree/main/packages/ts-config#readme",
