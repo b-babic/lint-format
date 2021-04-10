@@ -1,6 +1,6 @@
 {
   "name": "@progressivestudio/eslint-config-preact",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./.eslintrc.json",
   "repository": "progressivestudio/configurations",
   "homepage": "https://github.com/progressivestudio/configurations/tree/main/packages/eslint#readme",
@@ -11,5 +11,6 @@
   ],
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "8a3ebaa7af73120e347e7e180c5f6af8d0cf3d1b"
 }
