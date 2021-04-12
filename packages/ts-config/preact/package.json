@@ -1,6 +1,6 @@
 {
   "name": "@progressivestudio/ts-config-preact",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "devDependencies": {
     "@progressivestudio/ts-config-base": "0.7.2"
   },

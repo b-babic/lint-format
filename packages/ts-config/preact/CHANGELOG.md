@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/progressivestudio/configurations/compare/@progressivestudio/ts-config-preact@0.1.3...@progressivestudio/ts-config-preact@0.1.4) (2021-04-12)
+
+
+### Bug Fixes
+
+* **ts-config-preact:** remove .d.ts from the includes array ([0383cc6](https://github.com/progressivestudio/configurations/commit/0383cc662fd25a6647c6417f492c3aacf557f2b2))
+
+
+
+
+
 ## [0.1.3](https://github.com/progressivestudio/configurations/compare/@progressivestudio/ts-config-preact@0.1.2...@progressivestudio/ts-config-preact@0.1.3) (2021-04-10)
 
 **Note:** Version bump only for package @progressivestudio/ts-config-preact
