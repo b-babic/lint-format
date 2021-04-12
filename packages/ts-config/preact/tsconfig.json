@@ -7,5 +7,5 @@
     "jsxFragmentFactory": "Fragment",
     "types": ["vite/client"]
   },
-  "include": ["next-env.d.ts", "src"] // include files/patterns in the program,
+  "include": ["src"] // include files/patterns in the program,
 }
