@@ -1,0 +1,17 @@
+{
+  "name": "@progressivestudio/prettier-config",
+  "version": "0.10.0",
+  "files": [
+    "index.json"
+  ],
+  "main": "index.json",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/progressivestudio/configurations",
+    "directory": "packages/prettier/base"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

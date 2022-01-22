@@ -1,0 +1,22 @@
+# Editor stuff
+.idea
+.vscode
+.vim
+
+# Workspace
+.turbo
+pnpm-lock.yaml
+.npmrc
+
+# Web stuff
+node_modules
+dist
+dist-ssr
+build
+out
+.next
+
+# Misc
+.DS_Store
+*.local
+

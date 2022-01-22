@@ -1,0 +1,36 @@
+{
+  "name": "vite-preact-starter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview --port 3000",
+    "lint": "eslint . --ext .js,.ts,.tsx --ignore-path .gitignore --ignore-pattern '*.d.ts'",
+    "lint:fix": "eslint . --ext .js,.ts,.tsx --ignore-path .gitignore --ignore-pattern '*.d.ts' --fix",
+    "fmt": "prettier --check .",
+    "fmt:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "preact": "^10.5.13",
+    "wouter": "^2.7.4"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.1.7",
+    "@progressivestudio/eslint-config-preact": "workspace:*",
+    "@progressivestudio/prettier-config": "workspace:*",
+    "@progressivestudio/ts-config-preact": "workspace:*",
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vercel/git-hooks": "^1.0.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4",
+    "vite": "^2.7.13",
+    "vite-plugin-compress": "^2.0.0",
+    "vite-plugin-windicss": "^0.14.6"
+  },
+  "git": {
+    "pre-commit": [
+      "lint"
+    ]
+  }
+}

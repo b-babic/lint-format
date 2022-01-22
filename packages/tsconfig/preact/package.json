@@ -1,0 +1,20 @@
+{
+  "name": "@progressivestudio/ts-config-preact",
+  "version": "0.10.0",
+  "files": [
+    "tsconfig.json"
+  ],
+  "main": "tsconfig.json",
+  "license": "MIT",
+  "dependencies": {
+    "@progressivestudio/ts-config": "workspace:../react"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/progressivestudio/configurations",
+    "directory": "packages/tsconfig/preact"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

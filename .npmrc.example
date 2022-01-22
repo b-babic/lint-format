@@ -1,0 +1,3 @@
+// Use this example once github allows installing packages (public ones) without authentication.
+//npm.pkg.github.com/:_authToken=${TOKEN} // use this line when ready to publish to github packages.
+//@{organization}:registry=https://npm.pkg.github.com // use this one in other repos that require github package as dependency

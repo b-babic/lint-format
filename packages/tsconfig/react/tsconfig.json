@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.paths.json",
+  "compilerOptions": {
+    "allowJs": true, // break on .js imports
+    "esModuleInterop": true, // don't treat imported CommonJS/AMD/UMD modules similar to ES6 modules
+    "forceConsistentCasingInFileNames": true, // force consitent casing in filenames
+    "isolatedModules": true, // allow exporting things that does not provide a value e.g (export type)
+    "jsx": "preserve", // emit .jsx files with the JSX unchanged
+    "lib": ["dom", "dom.iterable", "esnext"], // set type definitions
+    "module": "esnext", // set the module system for the program
+    "moduleResolution": "node", // module resolution strategy
+    "noEmit": true, // do not emit compiler output files
+    "noErrorTruncation": true, // do not truncate error messages
+    "noFallthroughCasesInSwitch": true, // force break or return inside switch statements
+    "noImplicitAny": true, // don't fallback to any if no type is defined
+    "noImplicitReturns": true, // force functions to have return types defined / no implicit type
+    "noUncheckedIndexedAccess": true, // add undefined to any un-declared field in the type.
+    "noUnusedLocals": true, // report errors on unused local variables.
+    "noUnusedParameters": true, // report errors on unused parameters in functions.
+    "resolveJsonModule": true, // allow importing .json files
+    "skipLibCheck": true, // skip type checking of declaration (d.ts) files
+    "strict": true, // force stronger checking
+    "strictFunctionTypes": true, // force functions parameters to be checked more correctly
+    "strictNullChecks": true, // don't ignore null and undefined in some cases (array.find etc)
+    "strictPropertyInitialization": true, // raise the error when no assignments in constructor
+    // es2015 - es6 feature set: array.find, Promise, Proxy, Symbol, Map, Set, Reflect, etc.
+    // es2016 feature set: array.include, etc.
+    // es2017 feature set: Object.entries, Object.values, Atomics, SharedArrayBuffer, date.formatToParts, typed arrays, etc.
+    // es2018 feature set: async iterables, promise.finally, Intl.PluralRules, rexexp.groups, etc.
+    // es2019 feature set: array.flat, array.flatMap, Object.fromEntries, string.trimStart, string.trimEnd, etc.
+    "target": "es2019" // downlevel JS features
+  },
+  "include": ["src"], // include files/patterns in the program
+  "exclude": ["node_modules"] // exclude files/folders from the program
+}

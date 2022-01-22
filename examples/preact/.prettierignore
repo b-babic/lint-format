@@ -1,0 +1,9 @@
+node_modules
+.next
+.idea
+.vscode
+build
+dist
+*.yaml
+*.md
+*.d.ts
