@@ -1,0 +1,6 @@
+{
+  "extends": ["plugin:@progressivestudio/esnext"],
+  "rules": {
+    "no-undef": "off"
+  }
+}

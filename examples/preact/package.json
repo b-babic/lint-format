@@ -1,0 +1,33 @@
+{
+  "name": "preact-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "lint": "TIMING=1 eslint . --ext .js,.ts,.tsx --ignore-path .gitignore",
+    "lint:fix": "TIMING=1 eslint . --ext .js,.ts,.tsx --ignore-path .gitignore --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "preact": "^10.5.13",
+    "preact-async-route": "^2.2.1",
+    "preact-router": "^4.1.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.1.7",
+    "@progressivestudio/eslint-plugin": "workspace:*",
+    "@progressivestudio/prettier-config": "workspace:*",
+    "@progressivestudio/ts-config": "workspace:*",
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vercel/git-hooks": "^1.0.0",
+    "prettier": "^2.2.1",
+    "rollup-plugin-visualizer": "^5.8.3",
+    "typescript": "^4.2.4",
+    "vite": "^3.1.8",
+    "vite-plugin-windicss": "^1.8.8",
+    "windicss": "^3.5.6"
+  }
+}

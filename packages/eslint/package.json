@@ -1,0 +1,52 @@
+{
+  "name": "@progressivestudio/eslint-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Progressive studio's ESLint rules and configs.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/progressivestudio/configurations",
+    "directory": "packages/eslint"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "format": "prettier --check . --ignore-path .gitignore",
+    "format:fix": "prettier --write . --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.16.3",
+    "@babel/eslint-plugin": "^7.14.5",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "change-case": "^4.1.2",
+    "common-tags": "^1.8.2",
+    "doctrine": "^2.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-module-utils": "^2.7.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-jest-formatting": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^6.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-sort-class-members": "^1.14.0",
+    "jsx-ast-utils": "^3.2.1",
+    "pkg-dir": "^5.0.0",
+    "pluralize": "^8.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "react": "^16.13.1",
+    "typescript": "^3.9.2"
+  }
+}

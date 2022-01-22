@@ -1,0 +1,14 @@
+{
+  "extends": "@progressivestudio/ts-config/application.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": { "@/*": ["./src/*"] },
+    // Allow support for the preact
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@progressivestudio/ts-config",
+  "version": "1.0.1",
+  "description": "A set of typescript configuration files that can be extended.",
+  "license": "MIT",
+  "main": "application.json",
+  "files": [
+    "application.json",
+    "base.json",
+    "dom.json",
+    "library.json",
+    "node-base.json",
+    "node-library.json",
+    "definitions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/progressivestudio/configurations",
+    "directory": "packages/tsconfig"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
