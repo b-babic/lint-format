@@ -295,7 +295,6 @@ module.exports = {
     "@progressivestudio/react-hooks-strict-return": "error",
     "@progressivestudio/react-require-autocomplete": "error",
     "@progressivestudio/jsx-no-complex-expressions": "error",
-    "@progressivestudio/jsx-no-hardcoded-content": "error",
     "@progressivestudio/jsx-prefer-fragment-wrappers": "error",
     "consistent-return": "off",
   },
@@ -318,9 +317,7 @@ module.exports = {
     },
     {
       files: ["*.test.*"],
-      rules: {
-        "progressivestudio/jsx-no-hardcoded-content": "off",
-      },
+      rules: {},
     },
   ],
 };

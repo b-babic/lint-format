@@ -5,7 +5,6 @@ module.exports = {
     "jest/no-all-mocks-methods": require("./lib/rules/jest/no-all-mocks-methods"),
     "jest/no-snapshots": require("./lib/rules/jest/no-snapshots"),
     "jsx-no-complex-expressions": require("./lib/rules/jsx-no-complex-expressions"),
-    "jsx-no-hardcoded-content": require("./lib/rules/jsx-no-hardcoded-content"),
     "jsx-prefer-fragment-wrappers": require("./lib/rules/jsx-prefer-fragment-wrappers"),
     "no-ancestor-directory-import": require("./lib/rules/no-ancestor-directory-import"),
     "no-debugger": require("./lib/rules/no-debugger"),

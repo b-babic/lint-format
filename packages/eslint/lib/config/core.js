@@ -276,8 +276,6 @@ module.exports = {
     "@progressivestudio/jest/no-snapshots": "off",
     // Disallow complex expressions embedded in in JSX.
     "@progressivestudio/jsx-no-complex-expressions": "off",
-    // Disallow hardcoded content in JSX.
-    "@progressivestudio/jsx-no-hardcoded-content": "off",
     // Disallow useless wrapping elements in favour of fragment shorthand in JSX.
     "@progressivestudio/jsx-prefer-fragment-wrappers": "off",
     // Prefer that imports from within a directory extend to the file from where they are importing without relying on an index file.

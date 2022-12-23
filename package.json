@@ -17,14 +17,14 @@
   "devDependencies": {
     "@progressivestudio/eslint-plugin": "workspace:*",
     "@progressivestudio/prettier-config": "workspace:*",
-    "eslint": "^8.6.0",
+    "eslint": "^8.30.0",
     "only-allow": "^1.0.0",
-    "prettier": "^2.5.1",
-    "turbo": "^1.6.0",
-    "typescript": "^4.5.4"
+    "prettier": "^2.8.1",
+    "turbo": "^1.6.3",
+    "typescript": "^4.9.4"
   },
   "prettier": "@progressivestudio/prettier-config",
   "dependencies": {
-    "@changesets/cli": "^2.25.0"
+    "@changesets/cli": "^2.26.0"
   }
 }

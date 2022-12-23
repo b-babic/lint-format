@@ -5,7 +5,6 @@
     "plugin:@progressivestudio/prettier"
   ],
   "rules": {
-    "react/react-in-jsx-scope": "off",
-    "@progressivestudio/jsx-no-hardcoded-content": "off"
+    "react/react-in-jsx-scope": "off"
   }
 }
